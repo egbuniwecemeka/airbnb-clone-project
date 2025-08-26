@@ -112,6 +112,28 @@ Refunds & cancellations.
 Commission handling (platform takes % cut if needed).
 Payouts to property owners (if multi-vendor).
 
+## API Security
+
+1. Authentication
+What it is: Verifies who the user is (e.g., login via username/password, OAuth, JWT tokens, API keys).
+
+2. Authorization
+What it is: Controls what an authenticated user can do. eg Role-based access control (RBAC)
+
+3. Rate Limiting & Throttling
+What it is: Prevents abuse by limiting how many API requests a client can make in a given time frame.
+
+4. Data Validation & Sanitization
+What it is: Ensures only expected, safe data enters the system
+
+5. Encryption (in transit & at rest)
+What it is: Protects sensitive data during storage and communication.
+
+6. Logging & Monitoring
+What it is: Track activity for detection of suspicious behavior. e.g., DataDog, ELK stack
+
+7. CORS & API Gateway Security
+What it is: Controls which domains can access your APIs.
 
 ## Team Roles
 
