@@ -48,16 +48,16 @@ Endpoints - /reviews/, /reviews/{review_id}/
 Indexing
 Caching
 
-## The tech stack
+## Technology Stack
 
-Django
-Django RESTFUL Framework
-PostgreSQL
-GraphQL
-Celery
-Redis
-Docker
-CI/CD Pipelines
+Django - Framework used for building RESTful API's
+Django RESTful Framework - For creating and managing RESTful APIs
+PostgreSQL - Relational database for data storage
+GraphQL - For flexible and efficient querying of data
+Celery - For handling asynchrous tasks
+Redis - For caching and session management
+Docker - Containerized tool for consistent development and deployment
+CI/CD Pipelines - For testing and deploying code changes.
 
 ## Team Roles
 
