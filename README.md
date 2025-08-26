@@ -59,6 +59,14 @@ Redis - For caching and session management
 Docker - Containerized tool for consistent development and deployment
 CI/CD Pipelines - For testing and deploying code changes.
 
+## Database Design
+
+Users
+Properties
+Bookings
+Reviews
+Payments
+
 ## Team Roles
 
 Backend Developer
