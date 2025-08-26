@@ -150,4 +150,12 @@ What it is: Controls which domains can access your APIs.
 
 A CI/CD pipeline is the automated process that connects these steps — from code commit → testing → deploymen
 
+Role in Automating Development Process
+
+Automation – No need for manual builds, tests, or deployments.
+Speed – Developers deliver new features and bug fixes quickly.
+Reliability – Automated tests catch errors before production.
+Consistency – The same process is used every time, reducing human error.
+Collaboration – Teams can integrate changes frequently, avoiding last-minute conflicts
+
 Tools: GitHub Actions, Docker
