@@ -67,6 +67,52 @@ Bookings
 Reviews
 Payments
 
+## Feature Breakdown
+
+1. Users (Accounts & Profiles)
+Features:
+User registration & login - authentication, email/password, optional social media login
+Profile management - name, profile pic, phone no etc.
+User roles - Customer/Guest, Host, Admin
+Security - password reset, email verification, 2FA optional
+Dashboard for veiwing activity (reviews, payments, bookings)
+
+2. Properties (Listings / Hatchery Products in your case)
+Features:
+Create, update, and delete property/listing.
+Upload images, descriptions, pricing, availability.
+Categorization (type of property or product).
+Search and filter (location, price range, availability, etc.).
+Map integration (optional, if geographic locations matter).
+Owner can manage multiple properties
+
+3. Bookings (Reservations / Orders)
+Features:
+Calendar availability check.
+Create booking (date, duration, property).
+Cancel or modify booking.
+View past and upcoming bookings.
+Notifications & confirmation emails.
+Booking status (pending, confirmed, cancelled, completed).
+
+4. Reviews (Feedback System)
+Features:
+Leave reviews (text + rating stars).
+Edit/delete own reviews.
+Display reviews on property pages.
+Aggregate ratings (average score).
+Report abusive reviews (moderation).
+
+5. Payments (Transactions)
+Features:
+Secure checkout (Stripe, Paystack, PayPal, etc.).
+Payment confirmation & receipts.
+Track payment history.
+Refunds & cancellations.
+Commission handling (platform takes % cut if needed).
+Payouts to property owners (if multi-vendor).
+
+
 ## Team Roles
 
 Backend Developer
