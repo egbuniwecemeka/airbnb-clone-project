@@ -20,6 +20,17 @@ Create channel for user reviews, ratings and feedbacks.
 Data Optimization
 Ensure efficent data retrieval and storage through database optimization
 
+## Team Roles
+
+Backend Developer
+Database Administrator
+DevOps Engineer
+QA Engineer
+
+API Documentation Overview
+REST API
+GraphQL API
+
 ## Features
 
 1. API Documentation
@@ -135,14 +146,8 @@ What it is: Track activity for detection of suspicious behavior. e.g., DataDog, 
 7. CORS & API Gateway Security
 What it is: Controls which domains can access your APIs.
 
-## Team Roles
+## CI/CD Pipeline
 
-Backend Developer
-Database Administrator
-DevOps Engineer
-QA Engineer
+A CI/CD pipeline is the automated process that connects these steps — from code commit → testing → deploymen
 
-API Documentation Overview
-REST API
-GraphQL API
-
+Tools: GitHub Actions, Docker
